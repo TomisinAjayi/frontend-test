@@ -41,7 +41,7 @@ class Home extends Component {
                             <p>We put your money in high quality assets that help <br/> you build wealth and achieve your financial goals.</p>
                             <div className="flex-container storeFlex">
                                 <div className="store">
-                                    <a>
+                                    <a href=''>
                                         <i class="fab fa-apple"></i>
                                         <div id="appStore-text">
                                             <p>Download on the <br/> <b>App Store</b></p>
@@ -49,7 +49,7 @@ class Home extends Component {
                                     </a>
                                 </div>
                                 <div className="store" id='playStore'>
-                                    <a>
+                                    <a href=''>
                                         <i class="fab fa-apple"></i>
                                         <div id="appStore-text">
                                             <p>Download on the <br/> <b>play Store</b></p>
@@ -199,7 +199,7 @@ class Home extends Component {
                         <div className='community'>
                             <h2>Join The Rise Community</h2>
                             <p>If you want to go far, go together.<span className='noDisplay'> Our Telegram community <br /> surrounds you with others who can help you along your financial <br /> journey with tips, support, advice and learning. It's completely <br /> free and open to new and seasoned investors.</span></p>
-                            <button>Join our Community</button>
+                            <button><a href="">Join our Community</a></button>
                         </div>
                         <div className='communityImages'>
                             <img src="https://risevest.com/_next/static/images/rise-community-09f0a69d1eb80c0a1b8122f8c2e32cac.png"/>
@@ -212,7 +212,7 @@ class Home extends Component {
                             <p>Dollar investments that help you grow.</p>
                             <div className="flex-container storeFlex">
                                 <div className="store bottom">
-                                    <a>
+                                    <a href=''>
                                         <i class="fab fa-apple"></i>
                                         <div id="appStore-text">
                                             <p>Download on the <br/> <b>App Store</b></p>
@@ -220,7 +220,7 @@ class Home extends Component {
                                     </a>
                                 </div>
                                 <div className="store bottom" id='playStore'>
-                                    <a>
+                                    <a href=''>
                                         <i class="fab fa-apple"></i>
                                         <div id="appStore-text">
                                             <p>Download on the <br/> <b>play Store</b></p>

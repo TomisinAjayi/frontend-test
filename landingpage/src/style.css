@@ -144,6 +144,7 @@
 .store > a {
     color: #fff;
     display: flex;
+    text-decoration: none;
 }
 #appStore-text {
     font-family: Tomato Grotesk;
@@ -597,6 +598,13 @@ line-height: 24px;
   font-weight: 600;
   color: black;
 }
+.community > button > a {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+}
 .communityImages {
   margin-top: 174px;
   margin-left: 124px;
@@ -646,7 +654,7 @@ line-height: 24px;
   filter: drop-shadow(0px 12px 24px rgba(43, 57, 75, 0.15));
 }
 .bottomImage > img {
-  width: 179.04px;
+  width: 209.04px;;
   height: 399.58px;
 }
 footer {
@@ -709,6 +717,7 @@ i.fa-solid.fa-arrow-up-right {
     display: inline-block;
     width: 50px;
     height: 50px;
+    cursor: pointer;
     padding: 13px;
   }
   .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
@@ -880,6 +889,8 @@ i.fa-solid.fa-arrow-up-right {
 }
   .storeFlex {
     display: flex;
+    margin: 0 auto;
+    justify-content: center;
   }
   .bottomImage {
     margin: 37px auto 0;

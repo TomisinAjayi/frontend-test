@@ -22,7 +22,7 @@ class Home extends Component {
                     
                     <div className="nav-links">
                     <a href="#">Home</a>
-                    <a href="#">Products</a>
+                    <a href="#">Products<i class="fas fa-arrow-down"></i></a>
                     <a href="#">Investment Club</a>
                     <a href="#">Blog</a>
                     <a href="#">About Us</a>
@@ -263,7 +263,7 @@ class Home extends Component {
                         </div>
                         </div>
                         <div className="footer-right-half">
-                        <div className="column links">
+                        <div className="column links" id='footerProducts'>
                             <h3>Products</h3>
                             <ul>
                                 <li><a href="#">Rise App</a></li>

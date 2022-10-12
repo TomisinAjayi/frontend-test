@@ -76,7 +76,7 @@ class Home extends Component {
                             </div>
                         </div>
                         <div id="phone">
-                            <img src="https://risevest.com/_next/static/images/rise-app-phone-67fd09b34e7b43e8d0864948fc24a714.png" alt="iphone" id='imageDesign' />
+                            <img src="riseapp.jpg" alt="iphone" id='imageDesign' />
                         </div>
                     </div>
                     <div className="company">
@@ -253,7 +253,7 @@ class Home extends Component {
                             </div>
                         </div>
                         <div className='bottomImage'>
-                            <img src="https://risevest.com/_next/static/images/rise-app-phone-67fd09b34e7b43e8d0864948fc24a714.png" alt="phone"/>
+                            <img src="riseapp.jpg" alt="phone"/>
                         </div>
                     </div>   
                 </div>

@@ -1,4 +1,4 @@
-* {
+*{
     box-sizing: border-box;
   }
   
@@ -269,6 +269,9 @@ i{
     height: 433.2px;
 }
 #imageDesign {
+  background-image: url('riseapp.jpg');
+  height: 520px;
+    width: 256px;
     align-self: flex-end;
     transform-origin: bottom;
     animation-duration: 5s;
@@ -290,7 +293,7 @@ i{
   margin-top: 164.31px;
 }
 #firstPart-left > h3 {
-  width: 412px;
+  width: 435px;
   height: 29px;
   font-weight: 600;
   font-size: 32px;
@@ -328,7 +331,7 @@ i{
   margin-left: 118px;
 }
 #secondPart-right > h3 {
-  width: 298px;
+  width: 303px;
   height: 76px;
   font-weight: 600;
   font-size: 32px;
@@ -363,7 +366,7 @@ i{
   margin-left: 55px;
 }
 #thirdPart-left > h3 {
-  width: 386px;
+  width: 389px;
   height: 38px;
   font-weight: 600;
   font-size: 32px;
@@ -400,7 +403,7 @@ i{
   margin-left: 66px;
 }
 #fourthPart-right > h3 {
-  width: 397px;
+  width: 410px;
   height: 76px;
   font-weight: 600;
   line-height: 38.4px;
@@ -448,7 +451,7 @@ i{
   margin-right: 130.5px;
 }
 #works > div {
-  width: 300px;
+  width: 325px;
   height: 515px;
   border: 2px solid #C4C4C4;
   border-radius: 5px;
@@ -479,7 +482,7 @@ i{
   display: block;
 }
 #works > div > b > span {
-  color: #919FB5;;
+  color: #919FB5;
 }
 #works > div> .level {
   margin-top: 0px;
@@ -489,9 +492,27 @@ i{
   margin-right: 130.5px;
 }
 .design {
-   margin: 71px 110px 0 103px;
-    border: 10px solid white;
-    border-radius: 51px;
+  border: 10px solid white;
+  border-radius: 51px;
+  margin: 71px 110px 0 115px;
+}
+#stockImg {
+  background-image: url('stocks.jpg');
+  background-size: contain;
+  height: 85px;
+  width: 85px;
+}
+#estateImg {
+  background-image: url('estate.jpg');
+  background-size: contain;
+  height: 85px;
+  width: 85px;
+}
+#incomeImg {
+  background-image: url('income.jpg');
+  background-size: contain;
+  height: 85px;
+  width: 85px;
 }
 .stocks > div {
   height: 127px;
@@ -549,9 +570,11 @@ i.fa-solid.fa-arrow-right {
   margin-left: 42px;
   margin-bottom: 10px;
 }
-#phone2 > img {
+#phone2 > div {
+  background-image: url('riseapp.jpg');
   width: 333.89px;
   height: 508.71px;
+  background-repeat: no-repeat;
 }
 .riseApp {
   margin-top: 207.36px;
@@ -707,10 +730,13 @@ line-height: 24px;
   text-decoration: none;
 }
 .communityImages {
+  background-image: url('riseapp.jpg');
   margin-top: 174px;
   margin-left: 124px;
   width: 432px;
   height: 386px;
+  background-repeat: no-repeat;
+  margin-left: 24%;
 }
 #comm {
   margin-left: 130.5px;
@@ -763,8 +789,9 @@ line-height: 24px;
   margin-top: 37px;
   filter: drop-shadow(0px 12px 24px rgba(43, 57, 75, 0.15));
 }
-.bottomImage > img {
-  width: 209.04px;;
+.bottomImage > div {
+  background-image: url('riseapp.jpg');
+  width: 259.04px;
   height: 399.58px;
 }
 footer {
@@ -1117,4 +1144,3 @@ nav > .nav-links > a:nth-child(2) {
     margin-right: 0;
   }
 }
-
